@@ -1,0 +1,40 @@
+# Configuration constants for the project
+F0_METHODS = ["SHC", "HPS", "Erez"]
+POWER_CALCULATIONS = ["Total", "F0"]
+SELECTED_LOBE_METHOD = "TOTAL"
+RATIO_CALCULATION_METHOD = "F0"
+F0_METHOD = "Erez"
+USE_DYNAMIC_ANGLE_COEFFICIENT = True
+FIND_ANGLE_ONLY_WHEN_MOTOR_DETECTED = True
+
+
+# HPS constants
+NUM_OF_HPS_COMPRESSIONS = 3
+HPS_LOW_FREQ = 0
+HPS_HIGH_FREQ = 1000
+
+# SHC constants
+SHC_LOW_FREQ = 0
+SHC_HIGH_FREQ = 1000
+SHC_WIDTH = 10
+SHC_HARMONICS = 3
+SHC_JUMP = 4
+
+
+# Erez's method constants
+STR_LOW_FREQ = 0
+STR_HIGH_FREQ = 1000
+STR_WIDTH = 10
+STR_THRESHOLD = 0.05
+STR_PROMINENCE = 0.05
+STR_HARMONICS = 4
+STR_K = 3 # number of indexes to calculate strength of peak around
+
+
+
+# General purpose constants
+NUM_OF_CHANNELS = 8
+SF = 48000
+HORIZONTAL_ARRANGEMENT = [-52.5, -37.5, -22.5, -7.5, 7.5, 22.5, 37.5, 52.5]
+VERTICAL_ARRANGEMENT = [105, 90, 75, 60, 45]
+WIDTH_OF_PEAK  = 3
