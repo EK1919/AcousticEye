@@ -4,8 +4,8 @@ Organized work on Acoustic Eye project led by Daniel Herschko and co.
 ## IP before running first time:
 Control panel
 
-search: Network and Internet
-חיפוש: View network connections
+Network and Internet
+search: View network connections
 Ethernet
 
 Internet protocol version 4 -> properties
