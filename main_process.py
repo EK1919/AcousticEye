@@ -3,7 +3,7 @@ from Localization.Ratio.ratio_between_two_nodes import calculate_ratio_of_lobes
 from Localization.Power.array_of_powers import select_max_pair
 from Localization.Angle.angle_from_ratio import find_angle
 from Localization.basic_tools import fft_of_all_channels
-from Classification.main import main_classification
+from One_data_frame_processes.Classification.Classification_utils.main import main_classification
 from constants import *
 
 def main_process(data_frame, horizontal_lobe_position = True):
